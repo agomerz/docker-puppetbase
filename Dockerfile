@@ -1,4 +1,4 @@
-from ubuntu:precise
+FROM ubuntu:precise
 MAINTAINER Andy Gomez <andy@andygomez.org>
 
 ENV DEBIAN_FRONTEND='noninteractive'
