@@ -15,6 +15,8 @@ RUN apt-get update
 
 RUN apt-get install puppet -y
 
+RUN echo TEST
+
 VOLUME /etc/puppet/modules
 
 VOLUME /etc/puppet/manifests
